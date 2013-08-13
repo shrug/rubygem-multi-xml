@@ -1,0 +1,16 @@
+Source: rubygem-multi-xml
+Section: ruby
+Priority: extra
+Maintainer: Rob Braden <bradejr@puppetlabs.com>
+Build-Depends: debhelper (>= 8.0.0), gem2deb
+Standards-Version: 3.9.3
+Homepage: https://github.com/sferik/multi_xml
+#Vcs-Git: git://git.debian.org/collab-maint/multi-xml.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/multi-xml.git;a=summary
+XS-Ruby-Versions: all
+
+Package: rubygem-multi-xml
+Architecture: all
+XS-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: A generic swappable back-end for XML parsing

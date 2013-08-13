@@ -1,0 +1,10 @@
+Package: rubygem-multi-xml
+Version: 0.5.5-1
+Architecture: all
+Maintainer: Rob Braden <bradejr@puppetlabs.com>
+Installed-Size: 92
+Depends: ruby | ruby-interpreter
+Section: ruby
+Priority: extra
+Homepage: https://github.com/sferik/multi_xml
+Description: A generic swappable back-end for XML parsing
